@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Sign Up | Individual</title>
+  </head>
+  <body>
+    <main>
+      <section class="left-container">
+        <img id="logo" src="./assets/Logo.svg" alt="Logo" />
+
+        <div class="header-text">
+          <h1>For Individuals</h1>
+          <p>
+            Start benefiting from the wellness experience. For companies looking
+            on increasing productivity, and improving organization wellness.
+          </p>
+        </div>
+      </section>
+      <section class="right-container">
+        <form>
+          <div class="form-group">
+            <label for="first-name"
+              >First Name
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Tolu"
+                aria-labelledby="first-name"
+              />
+            </label>
+
+            <label for="last-name"
+              >Last Name<input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder=""
+                aria-labelledby="last-name"
+                required
+            /></label>
+          </div>
+          <div class="form-group">
+            <label for="gender"
+              >Gender
+              <select name="gender" id="gender" required>
+                <option value="">Select here</option>
+                <option value="yes">Male</option>
+                <option value="no">Female</option>
+              </select></label
+            >
+
+            <label for="dob">
+              Date of Birth
+              <input
+                for="dob"
+                type="text"
+                name="dob"
+                id="dob"
+                aria-labelledby="dob"
+                required
+              />
+              <img src="./assets/u_a_calendar-alt.svg" alt="Calendar Icon" />
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for="weight"
+              >Weight (KG)
+              <input
+                type="text"
+                name="weight"
+                id="weight"
+                placeholder="Enter Weight"
+                aria-labelledby="Weight"
+                required
+              />
+            </label>
+
+            <label for="height"
+              >Height (CM)
+              <input
+                type="text"
+                name="height"
+                id="height"
+                placeholder="Enter height here"
+                aria-labelledby="height"
+                required
+              />
+            </label>
+          </div>
+          <div class="form">
+            <label for="activity"
+              >Activity Level
+              <select
+                class="activity-select"
+                type="select"
+                name="gender"
+                id="gender"
+                required
+              >
+                <option value="select-here">Select here</option>
+              </select></label
+            >
+          </div>
+          <div class="form">
+            <label for="password"
+              >Password
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder=" "
+                aria-labelledby="Weight"
+                required
+              />
+              <img src="./assets/show.svg" alt="Password reveal Icon" />
+            </label>
+          </div>
+
+          <input type="submit" value="Submit" />
+          <a class="registration-link" href="#" target="_blank">
+            By clicking Register, you agree to our
+            <span class="external-link">Terms of Use </span> and our
+            <span class="external-link"> Privacy Policy</span>
+          </a>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

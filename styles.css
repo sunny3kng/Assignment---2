@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'BrownMediumRegular';
+    src: url('./assets/BrownMediumRegular.woff2') format('woff2'),
+        url('./assets/BrownMediumRegular.woff') format('woff'),
+        url('./assets/BrownMediumRegular.ttf') format('ttf');
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+
+
+.left-container {
+    display: flex;
+    align-items: left;
+    left: 140px;
+}
+
+
+
+label {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: var(--Text-Headings, #011C34);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    margin-block-end: 24px;
+
+    left: 0;
+    margin: 10px 10px 5px 10px;
+    display: block;
+    bottom: 8px;
+
+}
+
+input,
+select,
+.activity-select {
+    height: 48px;
+    width: calc(100% - 24px);
+    flex-shrink: 0;
+    margin: auto;
+    width: 98%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    display: flex;
+
+}
+
+::placeholder {
+    width: 170px;
+    color: var(--CL-Grey, #737373);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+img {
+    position: absolute;
+    top: 70px;
+    right: 8px;
+    transform: translateY(-50%);
+}
+
+body {
+    flex-shrink: 0;
+    background-color: #F7FDFC;
+    width: 1440px;
+    
+}
+
+
+
+#logo {
+    position: absolute;
+    top: 150px;
+    left: 140px;
+    width: 77.333px;
+    height: 80px;
+    flex-shrink: 0;
+    padding-bottom: 50px;
+
+
+}
+
+.left-container,
+h1,
+p {
+    color: #000B0A;
+    font-family: 'BrownMediumRegular', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    position: absolute;
+
+    top: 205px;
+    left: 140px;
+    width: 268px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+p {
+    color: var(--CL-Grey, #737373);
+    font-family: 'BrownMediumRegular', sans-serif;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+
+    position: relative;
+    top: 335px;
+    right: 502.67px;
+}
+
+
+
+
+
+
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.header-block {
+    position: relative;
+    display: flex;
+}
+
+.header-text {
+    color: #737373;
+    font-family: 'BrownMediumRegular', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+
+
+}
+
+form {
+    
+    display: block;
+    width: 580px;
+    height: 679px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    margin: 81px 140px 80px 720px;
+    padding: 60px 60px 60px 60px;
+    right: 140px;
+    top: 81px;
+
+}
+
+
+a.registration-link {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    flex-shrink: 0;
+    text-align: center;
+    line-height: 25px;
+    color: #000;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+a.registration-link .external-link {
+    color: var(--CL-Green, #2EC4B6);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration-line: underline;
+}
+
+span.link-text {
+    text-decoration: underline;
+    margin: 0 5px;
+    /* Adjust the spacing between the links if needed */
+}
+
+input, select{
+    
+        flex-shrink: 0;
+        border-radius: 2px;
+            border: 1px solid var(--CL-Gray-3, #F0F0F0);
+}
+input[type="submit"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 48px;
+    flex-shrink: 0;
+    padding: 0 40px;
+
+    background: #2EC4B6;
+    color: #FFF;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+
+    letter-spacing: 0.2px;
+    border: #2EC4B6;
+}
+
